@@ -15,3 +15,7 @@ end
 gem 'jquery-rails'
 
 gem 'spork', '~> 1.0rc'
+
+group :test do 
+gem 'webrat' 
+end
